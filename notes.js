@@ -22,6 +22,7 @@
 
 // ! create new branch
 // git checkout -b 'new_branch'
+// git branch 'new_branch'
 
 // ! check your current branch
 // git branch
@@ -39,6 +40,9 @@
 
 // ! Delete branch
 // git branch -d 'branch_name'
+
+// ! Delete branch forcefully without making commits
+// git branch -D Testing
 
 // ! use code after adding the file name in .gitignore file
 // git rm -r --cached
