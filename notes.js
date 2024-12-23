@@ -32,7 +32,6 @@
 // ! switch branch
 // git checkout new_branch
 
-
 // ! Delete branch
 // git branch -d 'branch_name'
 
