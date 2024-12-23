@@ -7,11 +7,11 @@
 // !push
 // git add .
 // git commit -m 'first commit'
-// git push origin master
+// git push origin new_branch
 
 
 // ! pull
-// git pull origin master
+// git pull origin new_branch
 
 // ! clone
 // git clone (url which we want to clone)
@@ -25,6 +25,14 @@
 
 // ! check your current branch
 // git branch
+// * represent your current working branch
+
+// ! Push, Pull To Your Branch
+// git push origin “branch_name”
+// git pull origin “branch_name”
+
+// ! merge current branch to master
+// git merge
 
 // ! switch branch
 // git checkout new_branch
