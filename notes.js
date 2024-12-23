@@ -25,7 +25,7 @@
 
 // ! check your current branch
 // git branch
-// * represent your current working branch
+// here * represent your current working branch
 
 // ! Push, Pull To Your Branch
 // git push origin “branch_name”
