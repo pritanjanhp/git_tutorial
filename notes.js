@@ -17,8 +17,8 @@
 // git clone (url which we want to clone)
 
 
-// ? Branches
 
+// ? Branches
 
 // ! create new branch
 // git checkout -b 'new_branch'
