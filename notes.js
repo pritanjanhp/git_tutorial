@@ -1,10 +1,10 @@
 // git init
-// git rempte add origin link
+// git remote add origin link
 // git config user.name pritanjan
-// git config user.name email
+// git config user.email email
 
 
-// !push
+// ! push
 // git add .
 // git commit -m 'first commit'
 // git push origin new_branch
@@ -14,8 +14,6 @@
 
 // ! clone
 // git clone (url which we want to clone)
-
-// dfg
 
 // ? Branches
 
@@ -81,3 +79,19 @@
 // ? Step 3
 // add this key to the github
 // github > setting > SSH & GPG Keys > New SSH Key
+
+
+
+
+// ----------------------------------------------
+// 1. ls -la ~/.ssh
+// 2. eval "$(ssh-agent -s)"
+// 3. ssh-add ~/.ssh/id_ed25519
+// 4. cat ~/.ssh/id_ed25519.pub
+
+// it will show the below 
+// ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIBKvKm7nMWuNOXChgNskOnRXfInl6rg23TIQoHdBoXuo pritanjan baranwal@DES
+
+// Test
+// ssh -T git@github.com
+// you have successfully added the task but github doesn't provide teh shell access.
