@@ -1,55 +1,56 @@
+## start
 git init
 git remote add origin link
 git config user.name pritanjan
 git config user.email email
 
 
-! push
+## push
 git add .
 git commit -m 'first commit'
 git push origin new_branch
 
-! pull
+## pull
 git pull origin new_branch
 
-! clone
+## clone
 git clone (url which we want to clone)
 
-? Branches
+# Branches
 
-! create new branch
+## create new branch
 git checkout -b 'new_branch'
 git branch 'new_branch'
 
-! check your current branch
+## check your current branch
 git branch
 here * represent your current working branch
 
-! Push, Pull To Your Branch
+## Push, Pull To Your Branch
 git push origin “branch_name”
 git pull origin “branch_name”
 
-! merge current branch to master
+## merge current branch to master
 git merge
 
-! switch branch
+## switch branch
 git checkout new_branch
 
-! Delete branch
+## Delete branch
 git branch -d 'branch_name'
 
-! Delete branch forcefully without making commits
+## Delete branch forcefully without making commits
 git branch -D Testing
 
-! use code after adding the file name in .gitignore file
+## use code after adding the file name in .gitignore file
 git rm -r --cached
 git add .
 git commit -m 'msg'
 
 
 
-! generating SSH key using git commands
-? Step 1
+# generating SSH key using git commands
+## Step 1
 ssh-keygen
 click enter
 
@@ -70,13 +71,13 @@ The key's randomart image is:
 +----[SHA256]-----+
 
 
-? Step 2 
+## Step 2 
 cat ~/.ssh/id_ed25519.pub
 
 will show the below 
 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIBKvKm7nMWuNOXChgNskOnRXfInl6rg23TIQoHdBoXuo pritanjan baranwal@DESKTOP-F4NJBBJ
 
-? Step 3
+## Step 3
 add this key to the github
 github > setting > SSH & GPG Keys > New SSH Key
 
@@ -95,3 +96,11 @@ ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIBKvKm7nMWuNOXChgNskOnRXfInl6rg23TIQoHdBoXuo
 Test
 ssh -T git@github.com
 you have successfully added the task but github doesn't provide teh shell access.
+
+
+## when it shows there is nothing to commit 
+git checkout master   
+git branch main master -f    
+git checkout main  
+git push origin main -f 
+
